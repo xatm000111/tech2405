@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #d4af37;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction, .posts, .categories, footer {
+    padding: 40px 20px;
+    background: #f9f9f9;
+}
+
+.introduction h2, .posts h3, .categories h3, footer h3 {
+    color: #d4af37;
+}
+
+.posts .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    flex: 1 1 48%;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post h3 {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d4af37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.categories .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1;
+}
+
+.category h3 {
+    margin-top: 0;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category li {
+    margin-bottom: 10px;
+}
+
+.category a {
+    text-decoration: none;
+    color: #006699;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+footer p, footer ul {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #006699;
+}

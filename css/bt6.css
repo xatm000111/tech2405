@@ -1,0 +1,225 @@
+img { 
+    width: 100%; 
+    height: 300px;
+    background-color: #008000;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #008000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: #008000;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+}
+
+.business-strategy {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.business-strategy-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.business-strategy-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.business-strategy-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.business-strategy-steps {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.step {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.step h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.how-it-works {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.how-it-works img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

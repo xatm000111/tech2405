@@ -1,0 +1,31 @@
+#sidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+.flex-grow-1 {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+/* Thay đổi màu nền khi di chuột vào mỗi mục */
+#sidebar ul li a {
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  background-color: #e0e0e0; /* Màu khi di chuột */
+}
+
